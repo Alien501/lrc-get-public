@@ -27,12 +27,12 @@ function App() {
   const [isFetchPressed, setIsFetchPressed] = useState(false)
   
   const [songUrl, setSongUrl] = useState('')
-  const [actk, setactk] = useState('BQAaQnftlCmXUSK2wP45ynDX2omMGdej4z6a4Jiqw3GT562UiXllsjNRqqW8k1VTfm7mXKGqcBrQDROSu9OfnU8Zfw95TqaloOcPrUFyd_VMkzNIlXo')
+  const [actk, setactk] = useState('YOUR KEY')
 
   const getToken = async () => {
     const tokenEndpoint = 'https://accounts.spotify.com/api/token'
-    const clientId = '8cabd9e01f8c47c59192eba8fdc63838'
-    const clientSecret = '960295fb723a4c0090b2624b74aed66c'
+    const clientId = 'Your Client ID'
+    const clientSecret = 'Your Client secret'
   
     try {
       const response = await axios.post(

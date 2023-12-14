@@ -1,1 +1,1 @@
-"# LRC-Get" 
+# LRC-Get
